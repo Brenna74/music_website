@@ -4,41 +4,96 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
-    color: #10471c;
-    background-image: url("as../../Assets/images/snow.png");
-    background-color: black;
+    background: url("../../Assets/images/sayagata.png");
 }
-
-.main-wrapper {
+.main-wrapper{
     max-width: 85rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    background-color: #FFDAB9;
-
+    margin-left: 12rem;
+    margin-right: 12rem;
+    background-color: white;
+    height: 90%;
+    overflow: auto
+    border-left: 2px solid  #cccccc;
 }
-
-.section-nav-bar {
-    display: flex;
-    flex-flow: row, nowrap;
-    justify-content: space-evenly;
-}
-.section-nav-bar a {
-    background: #25afa1;
-    padding: 1rem;
-    height: 10rem;
-    line-height: 8rem;
-    color: white;
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-}
-.section-header {
-    text-align: center;
-}
-.section-header a {
-    color: #E6AC27;
-}
-a:hover, a:visited, a:link, a:active
+.section-header, .page-header
 {
+    background-color: tomato;
+    margin-bottom: 0;
+    color: white;
+}
+.section-header H1 {
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 5rem;
+    color: white; 
+    text-align: center;
+
+}
+.page-header H1
+{
+    padding-left: 20px;
+    padding-bottom: 12px;
+    font-size: 5rem;
+    color: white; 
+    text-align: center;
+}
+.home-button {
+    background: white;
+    border: 2px solid #ff674d;
+    border-radius: 12px;
+    color: tomato;
+    font-weight: 900;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.home-button:visited {
+    color: tomato;
+}
+.section-nav-bar {
+    padding-top: 2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+header H1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section-nav-bar a {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a {
     text-decoration: none;
+}
+a:hover {
+    color: grey;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+p {
+    padding-left: 2rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.5rem;
 }
